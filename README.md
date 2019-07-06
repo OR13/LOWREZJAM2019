@@ -1,10 +1,23 @@
 # [LOWREZJAM2019](https://itch.io/jam/lowrezjam-2019)
 
+## [DEMO](https://or13.github.io/LOWREZJAM2019/)
+
 This is a fork of https://github.com/sharpfives/phaser3-starter
 
 I've added some setup for using Tiled for map editing and Synaptic for AI.
 
 See the reading list.
+
+### Getting Started
+
+```
+git clone git@github.com:OR13/LOWREZJAM2019.git
+cd LOWREZJAM2019
+npm i
+npm run dev
+npm run build
+npm run deploy # you should fork or copy this code before trying this.
+```
 
 ## Reading
 
