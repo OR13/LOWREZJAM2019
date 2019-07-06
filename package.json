@@ -1,0 +1,28 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Phaser, Tiled, Synaptic demo.",
+  "scripts": {
+    "dev": "webpack-dev-server --open --config webpack.dev.js --mode development",
+    "build": "webpack --config webpack.prod.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "OR13",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.3",
+    "expose-loader": "0.7.5",
+    "gh-pages": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "6.0.0",
+    "typescript": "3.4.5",
+    "webpack": "4.31.0",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.3.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "phaser": "^3.16.2",
+    "synaptic": "^1.1.4"
+  }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phaser3 Starter</title>
+  </head>
+
+  <style>
+    body {
+      -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -webkit-crisp-edges;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -o-crisp-edges;
+      image-rendering: pixelated;
+    }
+    .main {
+      margin: 8px;
+    }
+    .canvas_holder {
+      display: inline-block;
+      width: 512px;
+      height: 512px;
+    }
+  </style>
+
+  <body style="margin: 0px; padding: 0px; background-color:#333333">
+    <div class="main">
+      <div id="game-window" class="canvas_holder"></div>
+      <div id="ai-window" class="canvas_holder">
+        <canvas
+          id="ai-canvas"
+          width="64"
+          height="64"
+          style="image-rendering: pixelated; width: 100%; height: 100%;"
+        ></canvas>
+      </div>
+    </div>
+
+    <!-- <img src="/resources//emoji.png" /> -->
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
