@@ -18,6 +18,10 @@ export default class Player {
     scene.input.on(
       "pointerdown",
       function(pointer) {
+        if (!scene.music) {
+          scene.initMusic();
+        }
+
         if (!this.harvesting) {
           var x = scene.camera.scrollX + pointer.x;
           var y = scene.camera.scrollY + pointer.y;

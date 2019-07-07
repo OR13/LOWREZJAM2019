@@ -13,6 +13,8 @@ export class TestScene extends Phaser.Scene {
   berries: any;
   player: any;
   camera: any;
+  music: any;
+  initMusic: any;
 
   constructor() {
     super("");
@@ -36,7 +38,10 @@ export class TestScene extends Phaser.Scene {
       loop: true,
       delay: 0
     });
-    music.play();
+
+    this.initMusic = () => {
+      this.music = music.play();
+    };
 
     const map = this.make.tilemap({
       key: "map",
