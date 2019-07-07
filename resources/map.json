@@ -27,9 +27,23 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":64.6666666666667,
-                 "y":63.3333333333333
+                 "x":92,
+                 "y":76
+                }, 
+                {
+                 "height":0,
+                 "id":4,
+                 "name":"Berries",
+                 "point":true,
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":68,
+                 "y":52
                 }],
+         "offsetx":0.0402777777777776,
+         "offsety":0.0402777777777779,
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -37,7 +51,7 @@
          "y":0
         }],
  "nextlayerid":3,
- "nextobjectid":2,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.2.4",
