@@ -8,12 +8,17 @@ export class MainGame extends Phaser.Game {
     super({
       width: 64, // for #lowrezjam
       height: 64, // for #lowrezjam
-      type: Phaser.CANVAS,
+      type: Phaser.WEBGL,
       parent: "game-window",
       scene: TestScene,
-      backgroundColor: 0x175a00,
       render: {
         pixelArt: true
+      },
+      physics: {
+        default: "arcade",
+        arcade: {
+          gravity: { y: 0 }
+        }
       },
       callbacks: {
         postBoot: function(game) {

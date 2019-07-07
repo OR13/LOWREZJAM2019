@@ -8,6 +8,8 @@ I've added some setup for using Tiled for map editing and Synaptic for AI.
 
 See the reading list.
 
+npx tile-extruder --tileWidth 8 --tileHeight 8 --input ./resources/tileset.png --output ./resources/tileset-extruded.png
+
 ### Getting Started
 
 ```
@@ -27,3 +29,4 @@ npm run deploy # you should fork or copy this code before trying this.
 - https://github.com/cazala/synaptic/blob/gh-pages/scripts/controllers/paint-an-image.js
 - https://github.com/sharpfives/phaser3-starter
 - https://itch.io/jam/lowrezjam-2019
+- https://www.dynetisgames.com/2018/03/06/pathfinding-easystar-phaser-3/
